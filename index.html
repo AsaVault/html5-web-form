@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Creating HTML5 Web Forms</title>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div>
+		<h1>Creating HTML5 Web Forms</h1>
+		<h2>A simple Contact Us Form</h2>
+	</div>
+<!-- Form A medium of interface between the user and the web application -->
+	<form>
+		<p>All fields with astericks (*) are required</p>
+		<label for="firstname">*Firstname</label>
+		<input type="text" id="firstname" required autofocus>
+		<label for="lastname">*Lastname</label>
+		<input type="text" id="lastname" required>
+		<label for="email">*Email Address</label>
+		<input type="email" id="email" required>
+		<label for="tel">Telephone</label>
+		<input type="tel" id="tel">
+		<label for="message" >*Message</label>
+		<textarea id="message" required></textarea>	
+		<input type="submit" name="">
+	</form>
+</body>
+</html>
